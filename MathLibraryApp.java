@@ -45,6 +45,8 @@ public class MathLibraryApp {
                     System.out.print("Enter two numbers: ");
                     arithmetic.setInputs(sc.nextDouble(), sc.nextDouble());
                     System.out.println("Sum: " + arithmetic.add());
+                    System.out.println("Difference: " + arithmetic.subtract());
+                    System.out.println("Multiply: " + arithmetic.multiply());
                     System.out.println("Div: " + arithmetic.divide());
                     break;
                 case 2:
@@ -72,4 +74,5 @@ public class MathLibraryApp {
         }
         sc.close();
     }
+
 }
